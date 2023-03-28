@@ -1,0 +1,85 @@
+.wrapper {
+ 
+  margin:0 auto;
+  display: flex;
+  max-width:1200px;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+
+}
+.right-block{
+
+width: 40%;
+}
+
+.wrapper li{
+
+  padding:0;
+  margin:0;
+  border: 1px solid #D5D5D5;
+  height:300px;
+  overflow-y: auto;
+}
+
+.wrapper ul li.active, #main ul li.active:hover {
+  border-color: #156090;
+  background-color: #186ba0;
+  color: #FFFFFF;
+}
+.wrapper ul li:hover {
+  border-color: #c0c0c0;
+  background-color: #eeeeee;
+  color: #212121;
+}
+
+
+
+.container {
+width: 100%;
+overflow-y: scroll;
+max-height: 500px;
+border: 1px solid #156090;
+border-radius: 3px;
+}
+
+.container__item {
+width: 100%;
+height: 50px;
+border-bottom: 1px solid #156090;
+
+}
+
+.button-list .button-sort__item  {
+width: 30%;
+max-width: 100px;
+padding-left: 10px;
+padding-right: 10px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+}
+
+.button-list__item  {
+width: 100%;
+height: 30px;
+
+}
+
+.button-sort__item {
+
+display:inline-block;
+
+justify-content: center;
+}
+
+.active {
+background: #156090;
+}
+
+button .js-remove-button{
+display:flex;
+justify-content: space-evenly;
+align-items: end;
+
+}
